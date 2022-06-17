@@ -1,0 +1,202 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 5px;
+  background: #e9e8e8;
+}
+
+/* Title */
+.header1 {
+    padding: 30px;
+    text-align: center;
+    background-image: url("https://mail.google.com/mail/u/1?ui=2&ik=fea2443f47&attid=0.1.1&permmsgid=msg-f:1735815909843805913&th=1816db5f8db626d9&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ8YdgJ6ISxrqSaQKQ6qNg4hjQUa1UahVEf-8b__uJiu_cOn1CNkHjUXVBETS1IYK_eOT1NoLJoNGR-V6w31l4Hn-yey7FWbgKlnzDegtUcq6Bw9v06rCbnF2K4&disp=emb");
+  }
+  
+.header1 h1 {
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+  }
+
+.header1 p {
+    font-size: 30px;
+    color:aliceblue ;
+}
+  
+.header2 {
+    padding: 30px;
+    text-align: center;
+    background-image: url("https://mail.google.com/mail/u/1?ui=2&ik=fea2443f47&attid=0.1&permmsgid=msg-f:1735817180724883335&th=1816dc8774206f87&view=att&disp=safe");
+  }
+  
+.header2 h1 {
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+  }
+
+.header2 p {
+    font-size: 30px;
+    color:aliceblue ;
+}
+
+.header3 {
+    padding: 30px;
+    text-align: center;
+    background-image: url("https://mail.google.com/mail/u/1?ui=2&ik=fea2443f47&attid=0.2&permmsgid=msg-f:1735817180724883335&th=1816dc8774206f87&view=att&disp=safe");
+  }
+  
+.header3 h1 {
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+  }
+
+.header3 p {
+    font-size: 30px;
+    color:aliceblue ;
+}
+
+.header4 {
+    padding: 30px;
+    text-align: center;
+    background-image: url("https://mail.google.com/mail/u/1?ui=2&ik=fea2443f47&attid=0.1.1&permmsgid=msg-f:1735815909843805913&th=1816db5f8db626d9&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ8YdgJ6ISxrqSaQKQ6qNg4hjQUa1UahVEf-8b__uJiu_cOn1CNkHjUXVBETS1IYK_eOT1NoLJoNGR-V6w31l4Hn-yey7FWbgKlnzDegtUcq6Bw9v06rCbnF2K4&disp=emb");
+  }
+  
+.header4 h1 {
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+  }
+
+.header4 p {
+    font-size: 30px;
+    color:aliceblue ;
+}
+
+  /* NavBar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  /* Columns */
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;
+    color: #333;
+    font-size: 20px;
+  }
+  
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+ /*style columns */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+    color: #333;
+  }
+
+
+  .container {
+    padding: 64px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both
+  }
+  
+  .column-66 {
+    float: left;
+    width: 66.66666%;
+    padding: 20px;
+  }
+  
+  .column-33 {
+    float: left;
+    width: 33.33333%;
+    padding: 20px;
+  }
+  
+  .large-font {
+    font-size: 48px;
+  }
+  
+  .xlarge-font {
+    font-size: 64px
+  }
+  
+  .button {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #04AA6D;
+  }
+  
+  img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .column-66,
+    .column-33 {
+      width: 100%;
+      text-align: center;
+    }
+    img {
+      margin: auto;
+    }
+  }
